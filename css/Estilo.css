@@ -1,0 +1,336 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Dosis', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+	min-height: 100%;
+	background-color: #efefef;
+}
+.foto {
+	width: 100%;
+}
+.hipervinculo {
+	background: #33373d;
+    display: inline-block;
+    width: 100%;
+}
+.hipervinculo:hover {
+	background: #2df823;
+}
+.icono{
+    width: 24px;
+    height: 24px;
+    float: left;
+    background-position: 0px 0px;
+    background-size: cover;
+    margin: 10px 20px;
+}
+.icono.imagen-sobre-mi {
+	background-image: url("../images/sobre-mi.png");
+}
+.icono.imagen-mis-estudios {
+	background-image: url("../images/educacion.png");
+}
+.icono.imagen-expectativa-laboral {
+	background-image: url("../images/experiencia-laboral.png");
+}
+.icono.imagen-programacion {
+	background-image: url("../images/programacion.png");
+}
+.icono.imagen-hobbies {
+	background-image: url("../images/hobbie.png");
+}
+.hipervinculo:hover .icono.imagen-sobre-mi {
+	background-image: url("../images/sobre-mi-hover.png");
+}
+.hipervinculo:hover .icono.imagen-mis-estudios {
+	background-image: url("../images/educacion-hover.png");
+}
+.hipervinculo:hover .icono.imagen-programacion {
+	background-image: url("../images/programacion-hover.png");
+}
+.hipervinculo:hover .icono.imagen-expectativa-laboral {
+	background-image: url("../images/experiencia-laboral-hover.png");
+}
+.hipervinculo:hover .icono.imagen-hobbies {
+	background-image: url("../images/hobbie-hover.png");
+}
+.red {
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+    margin-left: 4px;
+    float: left;
+    display: inline-block;
+}
+
+.red.facebook {
+    background-image: url('../images/redes-facebook.png');
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.red.facebook:hover {
+    background-image: url('../images/redes-facebook-hover.png');
+}
+
+.red.twitter {
+    background-image: url('../images/redes-twitter.png');
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.red.twitter:hover {
+    background-image: url('../images/redes-twitter-hover.png');
+}
+
+.red.instagram {
+    background-image: url('../images/redes-instagram.png');
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.red.instagram:hover {
+    background-image: url('../images/redes-instagram-hover.png');
+}
+.redes {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 26%;
+    background-color: #efefef;
+    text-align: center;
+}
+.lista-de-datos {
+	box-sizing: border-box;
+	width: 50%;
+    float: left;
+    border: 1px solid #33373d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.lista-de-datos li {
+	border-bottom: 1px solid #33373d;
+}
+h1.titulo-seccion {
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: 800;
+	text-transform: uppercase;
+	background-color: white;
+	border-bottom: 1px solid #efefef;
+}
+h1#nombre {
+	font-size: 28px;
+	line-height: 25px;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h2#profesion {
+	color: #777;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin-top: 0px;
+}
+h6{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-style: italic;
+	text-decoration: underline;
+	text-align: center;
+	background-color: #2df823;
+}
+
+p {
+	font-size: 12px;
+	color: #777;
+	line-height: 22px;
+	font-weight: 300;
+}
+.dato-personal {
+	color:#333;
+	font-size:14px;
+	font-weight: 700;
+	text-align: center;	
+	display: inline-block;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width:35%;
+	background-color: #2df823;
+}
+.dato {
+	color:#666;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 63%;
+
+}
+section {
+
+	padding: 40px 10px 2px 40px;
+	position: relative;
+}
+#sobre_mi, #mis_estudios, #expectativa_laboral, #hobbies {
+	padding: 30px 40px
+}
+a {
+	text-decoration: none;
+}
+.texto-hipervinculo {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 45px;
+	text-align: right;
+	text-transform:uppercase;
+	color: #85878b;
+	margin: 0px;
+	padding-right: 20px;
+}
+.item {
+	border-bottom: 1px solid #26292e;
+	padding: 0px;
+	height: 45px
+}
+ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0;
+}  
+.hipervinculo:hover .texto-hipervinculo {
+	color: white;
+}
+.contenedor {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+#c-derecha {
+	background-color: white;
+	width: 65%;
+	float: right;
+}
+#c-izquierda {
+	width: 15%;
+	float: left;
+	position: fixed;
+}
+.leer {
+	float:left;
+	background-image: url("../images/libros.jpg");
+	min-height: 140px;
+	width: 100%;
+	background-position: 0;
+	background-size: cover;
+}
+.taekwondo {
+	float:left;
+	background-image: url("../images/TKD.jpg");
+	min-height: 140px;
+	width: 100%;
+	background-position: 0;
+	background-size: cover;
+	display: inline-block;
+}
+.folklore {
+	float:left;
+	background-image: url("../images/Folklore.png");
+	background-position: top center;
+	min-height: 140px;
+	width: 100%;
+	background-position: 0;
+	background-size: cover;
+}
+.item-hobbie {
+	margin-left: 1%;
+	margin-right:1%;
+	width: 31%;	
+	font-size:18px;
+	font-weight: 500;
+	font-style: italic;
+	color:gray;
+	text-align:center;
+}
+.leer:hover {
+	width: 200%;
+	height: 200px;
+}
+.taekwondo:hover {
+	width: 200%;
+	height: 300px;
+}
+.folklore:hover {
+	height: 350px;
+	width: 200%
+}
+.texto-tkd {
+	display: none;
+	color: white;
+	float: right;
+	position: relative;
+	top: -100px;
+	left: 380px;
+}
+.texto-leer {
+	display: none;
+	color: white;
+	float: right;
+	position: relative;
+	top: -100px;
+	left: 380px;
+}
+.texto-folklore {
+	display: none;
+	color: white;
+	float: right;
+	position: relative;
+	top: -100px;
+	left: 380px;
+}
+.taekwondo:hover + .texto-tkd {
+	color: #33373d;
+	font-style: italic;
+	display: inline-block;
+}
+.leer:hover + .texto-leer {
+	color: #33373d;
+	font-style: italic;
+	display: inline-block;
+}
+.folklore:hover + .texto-folklore {
+	color: #33373d;
+	font-style: italic;
+	display: inline-block;
+}
+.w-clearfix:before,.w-clearfix:after {
+	content: " ";
+	display: table;
+}
+.w-clearfix:after {
+	clear: both;
+	}
+.linea {
+    position: relative;
+    left: -10px;
+    top: -10px;
+    width: 60px;
+    margin-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #fff;
+}
+.fecha {
+	color: #2df823;
+	background-color: #33373d;
+	text-align: center;
+}
